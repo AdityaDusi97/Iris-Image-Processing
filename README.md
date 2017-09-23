@@ -1,6 +1,7 @@
 # Iris-Image-Processing
 Code with GUI for Database Creation, encoding and verification 
-This work is an agglomeration of works from :
+
+This also involves work a few snippets works from :
 1.  Prakash Manandhar (pmanandhar@umassd.edu)
 2.  Peter Kovesi & Libor Masek,Department of Computer Science & Software Engineering, The University of Western Australia
  
@@ -8,5 +9,5 @@ This work is an agglomeration of works from :
  
  A standard database of images is used- CASIA. 
  
- Proto1 is the main GUI code. This calls all the other functions.
+
  
