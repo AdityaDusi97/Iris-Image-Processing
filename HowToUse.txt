@@ -4,4 +4,7 @@ For now, each successive user gets a new number.
 First run database.m and input images from the CASIA database for each user. I have chosen the left eye and in some rare cases,
 went for the right one. This code will create a corresponding matlab database with segmented, normalized image along with the noise mask.
 
-Then run proto1.m. This segments, normalizes, encodes and compares the imput images with all the ones in the database. 
+Then run proto1.m. This segments, normalizes, encodes and compares the imput images with all the ones in the database.
+It also returns the hamming distance as a percentage of the total number or bits compared. I have added functions to add gaussian and salt and pepper noise as well and evauluate the performance at various SNR (Signal to Noise Ratio).
+
+I have taken a few functions from Prakash Manandhar, pmanandhar@umassd.edu; and Libor Masek, School of Computer Science & Software Engineering, The University of Western Australia
